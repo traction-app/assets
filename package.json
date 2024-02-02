@@ -1,23 +1,22 @@
 {
-  "name": "assets",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.45"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.20",
-    "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.2.1",
-    "tailwindcss": "^3.2.4",
-    "vite": "^4.0.0"
-  }
+	"name": "assets",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.4.15"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.6.2",
+		"autoprefixer": "^10.4.17",
+		"postcss": "^8.4.33",
+		"prettier": "^2.8.8",
+		"tailwindcss": "^3.4.1",
+		"vite": "^4.5.2"
+	}
 }
