@@ -4,7 +4,7 @@
 			<button
 				v-for="color in each"
 				@click.prevent="copyText(color)"
-				class="group rounded-md p-2 sm:p-4"
+				class="group rounded-md p-3 sm:p-4"
 				:style="`background-color: ${color}`"
 			>
 				<IconCopy class="size-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
