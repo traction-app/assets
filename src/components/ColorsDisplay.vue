@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col gap-4">
+	<div class="flex flex-col gap-2">
 		<div v-for="each in colors" class="flex gap-2">
 			<button
 				v-for="color in each"
@@ -12,7 +12,7 @@
 		</div>
 
 		<div
-			class="flex select-none items-center gap-2 text-sm font-medium text-green-500 transition-opacity duration-200"
+			class="flex select-none justify-center items-center gap-2 text-sm font-medium text-green-500 transition-opacity duration-200"
 			:class="toggleToast ? 'opacity-100' : 'opacity-0'"
 		>
 			<IconCopy class="w-4" />
